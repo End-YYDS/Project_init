@@ -1,0 +1,19 @@
+[package]
+name = "agent"
+version = "0.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = {workspace = true}
+serde = {workspace = true}
+serde_json = {workspace = true}
+local-ip-address = {workspace = true}
+reqwest = {workspace = true}
+env_logger = "0.11.3"
+jsonwebtoken = {workspace = true}
+log = {workspace = true}
+healty_checker = {path = "../healty_checker"}
+clap = { version = "4.5.4", features = ["derive"] }
+certificate = {path = "../certificate"}

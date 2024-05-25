@@ -1,0 +1,12 @@
+[package]
+name = "certificate"
+version = "0.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+openssl = {workspace = true}
+log = {workspace = true}
+jsonwebtoken = {workspace = true}
+env_logger = {workspace = true} 
